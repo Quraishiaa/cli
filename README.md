@@ -19,12 +19,6 @@ If you are a hubber and are interested in shipping new commands for the CLI, che
 <!-- this anchor is linked to from elsewhere, so avoid renaming it -->
 ## Installation
 
-### macOS
-
-`gh` is available via [Homebrew][], [MacPorts][], [Conda][], [Spack][], [Webi][], and as a downloadable binary including Mac OS installer `.pkg` from the [releases page][].
-
-> [!NOTE]
-> As of May 29th, Mac OS installer `.pkg` are unsigned with efforts prioritized in [`cli/cli#9139`](https://github.com/cli/cli/issues/9139) to support signing them.
 
 #### Homebrew
 
@@ -45,12 +39,6 @@ If you are a hubber and are interested in shipping new commands for the CLI, che
 | `conda install gh --channel conda-forge` | `conda update gh --channel conda-forge` |
 
 Additional Conda installation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
-
-#### Spack
-
-| Install:           | Upgrade:                                 |
-| ------------------ | ---------------------------------------- |
-| `spack install gh` | `spack uninstall gh && spack install gh` |
 
 #### Webi
 
